@@ -68,3 +68,37 @@ console.log(num <= anotherNum);
 console.log(num == '5');
 console.log(num != 8);
 console.log(num != '5');
+
+// ---------------------Lev1_8_js-einführung_arithmetic-operators---------------
+let xy = 20;
+let y = 30;
+let z = 10;
+console.log(xy + y);
+console.log(y - xy);
+console.log(xy * y);
+console.log(xy / y);
+console.log((xy * y) / z);
+let resultOne = (xy * y) / z;
+console.log(resultOne);
+let a = 15;
+let b = 9;
+let c = 20;
+console.log(a % b);
+let resultTwo = a + b * c;
+console.log(resultTwo);
+console.log(a++);
+console.log(b--);
+let resultThree = b - a;
+console.log(resultThree);
+console.log(resultOne % resultTwo);
+
+// ----------------------------Lev2_1_js-vertiefung_DOM_onclick_style--------------
+//classList.toggle
+function navHome() {
+     console.log('toggle button is working');
+     document.getElementById('navHome').classList.toggle('active');
+}
+function navChange() {
+     console.log('toggle button is working');
+     document.getElementById('navHome').classList.toggle('pink');
+}
